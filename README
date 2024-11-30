@@ -1,0 +1,18 @@
+# Python Copy Cli Tool
+
+Python Copy Cli Tool is a simple tool used for copying .txt files 
+  from destination a to destination b.
+
+## Usage
+
+To show help do:
+```
+python copy_cli_tool.py -h
+```
+
+To copy file from path A to path B do:
+```
+python copy_cli_tool.py /file/a /file/b
+```
+
+Tool includes file extension validation. Only .txt files are supported at the moment.
